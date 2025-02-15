@@ -1,0 +1,53 @@
+
+.selectdrop{
+   
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        position: absolute;
+        top: 160%;
+        left: -20px;
+        z-index: 100;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+        padding: 15px;
+        overflow: scroll;
+        cursor: pointer;
+
+     
+}
+
+.selectdrop input{
+
+    width: 100%;
+    height: 30px;
+    border:1px solid #bce3ce;
+}
+
+.selectdrop ul li{
+
+    list-style: none;
+    padding-top: 5px;
+    
+}
+.selectdrop .categorylist{
+    padding-left: 0px;
+    margin: 0px;
+
+}
+
+.selectdrop .categorylist ul li:hover{
+
+    background-color:#3bb77e;
+}
+
+.selectdrop .categorylist ul li:active{
+    background-color: aqua;
+}
+
+.Selectdropone .OpenSelect {
+    display: flex;
+    padding-left: 30px;
+    width: 80%;
+    height: auto;
+
+}
